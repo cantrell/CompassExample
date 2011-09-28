@@ -1,0 +1,12 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+	<id>com.christiancantrell.compass</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>			
+				<nativeLibrary>Compass.jar</nativeLibrary>
+				<initializer>com.christiancantrell.android.compass.extensions.CompassExtension</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
